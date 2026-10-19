@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Viennoiseries">
+  <rect width="800" height="800" fill="#FCE7C6"/>
+  <circle cx="327" cy="691" r="2" fill="#351F1D" opacity="0.07"/><circle cx="500" cy="142" r="4" fill="#351F1D" opacity="0.07"/><circle cx="673" cy="353" r="6" fill="#351F1D" opacity="0.07"/><circle cx="86" cy="564" r="3" fill="#351F1D" opacity="0.07"/><circle cx="259" cy="775" r="5" fill="#351F1D" opacity="0.07"/><circle cx="432" cy="226" r="2" fill="#351F1D" opacity="0.07"/><circle cx="605" cy="437" r="4" fill="#351F1D" opacity="0.07"/><circle cx="778" cy="648" r="6" fill="#351F1D" opacity="0.07"/><circle cx="191" cy="99" r="3" fill="#351F1D" opacity="0.07"/><circle cx="364" cy="310" r="5" fill="#351F1D" opacity="0.07"/><circle cx="537" cy="521" r="2" fill="#351F1D" opacity="0.07"/><circle cx="710" cy="732" r="4" fill="#351F1D" opacity="0.07"/><circle cx="123" cy="183" r="6" fill="#351F1D" opacity="0.07"/><circle cx="296" cy="394" r="3" fill="#351F1D" opacity="0.07"/>
+  <g transform="translate(0 0)">
+    <path d="M180 520 A 220 220 0 0 1 620 520 L 560 520 A 160 160 0 0 0 240 520 Z" fill="#351F1D"/>
+    <path d="M300 355 l 30 -60 M400 320 l 0 -65 M500 355 l -30 -60" stroke="#351F1D" stroke-width="14" stroke-linecap="round" opacity="0.35"/>
+    <circle cx="180" cy="520" r="38" fill="#FF8048" stroke="#351F1D" stroke-width="12"/>
+    <circle cx="620" cy="520" r="38" fill="#FF8048" stroke="#351F1D" stroke-width="12"/></g>
+  <g>
+    <rect x="272.5" y="704" width="255" height="56" rx="28" fill="#351F1D"/>
+    <text x="400" y="742" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="2" fill="#F8F0EB">VIENNOISERIES</text>
+  </g>
+</svg>

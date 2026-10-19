@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Croissant">
+  <rect width="800" height="800" fill="#F5E3D3"/>
+  <circle cx="424" cy="752" r="2" fill="#351F1D" opacity="0.07"/><circle cx="597" cy="203" r="4" fill="#351F1D" opacity="0.07"/><circle cx="770" cy="414" r="6" fill="#351F1D" opacity="0.07"/><circle cx="183" cy="625" r="3" fill="#351F1D" opacity="0.07"/><circle cx="356" cy="76" r="5" fill="#351F1D" opacity="0.07"/><circle cx="529" cy="287" r="2" fill="#351F1D" opacity="0.07"/><circle cx="702" cy="498" r="4" fill="#351F1D" opacity="0.07"/><circle cx="115" cy="709" r="6" fill="#351F1D" opacity="0.07"/><circle cx="288" cy="160" r="3" fill="#351F1D" opacity="0.07"/><circle cx="461" cy="371" r="5" fill="#351F1D" opacity="0.07"/><circle cx="634" cy="582" r="2" fill="#351F1D" opacity="0.07"/><circle cx="47" cy="33" r="4" fill="#351F1D" opacity="0.07"/><circle cx="220" cy="244" r="6" fill="#351F1D" opacity="0.07"/><circle cx="393" cy="455" r="3" fill="#351F1D" opacity="0.07"/>
+  <g transform="translate(0 0)">
+    <path d="M180 520 A 220 220 0 0 1 620 520 L 560 520 A 160 160 0 0 0 240 520 Z" fill="#FF8048"/>
+    <path d="M300 355 l 30 -60 M400 320 l 0 -65 M500 355 l -30 -60" stroke="#351F1D" stroke-width="14" stroke-linecap="round" opacity="0.35"/>
+    <circle cx="180" cy="520" r="38" fill="#FFE52E" stroke="#351F1D" stroke-width="12"/>
+    <circle cx="620" cy="520" r="38" fill="#FFE52E" stroke="#351F1D" stroke-width="12"/></g>
+  <g>
+    <rect x="302.5" y="704" width="195" height="56" rx="28" fill="#351F1D"/>
+    <text x="400" y="742" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="2" fill="#F8F0EB">CROISSANT</text>
+  </g>
+</svg>

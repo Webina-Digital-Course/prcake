@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@theme {
+  --color-chocolate: #351f1d;
+  --color-chocolate-soft: #4c312d;
+  --color-chocolate-mute: #7a5b54;
+  --color-cream: #f8f0eb;
+  --color-cream-deep: #f1e4db;
+  --color-promo: #6224a8;
+  --color-promo-soft: #7b3ec7;
+  --color-bakery-yellow: #ffe52e;
+  --color-bakery-orange: #ff8048;
+  --color-turquoise: #9edde4;
+
+  --font-display: var(--font-lilita), "Arial Narrow", Impact, sans-serif;
+  --font-body: var(--font-dm-sans), system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-chocolate);
+    font-family: var(--font-body);
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: var(--font-display);
+    letter-spacing: 0.01em;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-bakery-orange);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  ::selection {
+    background: var(--color-bakery-yellow);
+    color: var(--color-chocolate);
+  }
+}
+
+@keyframes rollin-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes rollin-pop {
+  0% {
+    transform: scale(0.92);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-marquee {
+  animation: rollin-marquee 32s linear infinite;
+}
+
+.animate-pop {
+  animation: rollin-pop 0.25s ease-out;
+}
+
+.marquee-mask {
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 4%,
+    black 96%,
+    transparent
+  );
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .animate-marquee,
+  .animate-pop {
+    animation: none;
+  }
+}

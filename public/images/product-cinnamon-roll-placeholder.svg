@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Cinnamon roll">
+  <rect width="800" height="800" fill="#FCE7C6"/>
+  <circle cx="68" cy="724" r="2" fill="#351F1D" opacity="0.07"/><circle cx="241" cy="175" r="4" fill="#351F1D" opacity="0.07"/><circle cx="414" cy="386" r="6" fill="#351F1D" opacity="0.07"/><circle cx="587" cy="597" r="3" fill="#351F1D" opacity="0.07"/><circle cx="760" cy="48" r="5" fill="#351F1D" opacity="0.07"/><circle cx="173" cy="259" r="2" fill="#351F1D" opacity="0.07"/><circle cx="346" cy="470" r="4" fill="#351F1D" opacity="0.07"/><circle cx="519" cy="681" r="6" fill="#351F1D" opacity="0.07"/><circle cx="692" cy="132" r="3" fill="#351F1D" opacity="0.07"/><circle cx="105" cy="343" r="5" fill="#351F1D" opacity="0.07"/><circle cx="278" cy="554" r="2" fill="#351F1D" opacity="0.07"/><circle cx="451" cy="765" r="4" fill="#351F1D" opacity="0.07"/><circle cx="624" cy="216" r="6" fill="#351F1D" opacity="0.07"/><circle cx="37" cy="427" r="3" fill="#351F1D" opacity="0.07"/>
+  <g transform="translate(0 0)">
+    <circle cx="400" cy="430" r="205" fill="#FF8048" stroke="#351F1D" stroke-width="14"/>
+    <path d="M400 430 m0 -30 a30 30 0 1 1 -21 51 M400 430 m0 -80 a80 80 0 1 1 -57 137 M400 430 m0 -130 a130 130 0 1 1 -92 222 M400 430 m0 -180 a180 180 0 1 1 -127 307" fill="none" stroke="#351F1D" stroke-width="20" stroke-linecap="round"/></g>
+  <g>
+    <rect x="272.5" y="704" width="255" height="56" rx="28" fill="#351F1D"/>
+    <text x="400" y="742" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="2" fill="#F8F0EB">CINNAMON ROLL</text>
+  </g>
+</svg>

@@ -1,0 +1,127 @@
+
+> prcake@0.1.0 dev
+> next dev
+
+▲ Next.js 16.4.2 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.137.1:3000
+✓ Ready in 840ms
+✓ Running next.config.ts took 62ms
+- Cache Components enabled
+- Partial Prefetching enabled
+- Experiments (use with caution):
+  ✓ agentFeedback
+
+ GET / 200 in 835ms (next.js: 263ms, application-code: 571ms)
+Error: Route "/": Next.js encountered the unstable value `new Date()` while prerendering.
+
+This value can change between renders, so it must be either prerendered or computed later.
+
+Ways to fix this:
+  - [dynamic] Render at request time by adding a dynamic data access (e.g. `await connection()`) before this call
+  - [cache] Prerender and cache the value with `"use cache"`
+  - [client] Render the value on the client with `"use client"`
+  - [measure] If the value is for telemetry, use a timing API such as `performance.now()`
+
+Learn more: https://nextjs.org/docs/messages/blocking-prerender-current-time
+    at Footer (src\components\layout\footer.tsx:125:17)
+    at RootLayout (src\app\layout.tsx:55:11)
+  123 |
+  124 |         <div className="mt-12 flex flex-col gap-3 border-t border-cream/15 pt-6 text-xs text-cream/55 sm:flex-row sm:items-center sm:justify-between">
+> 125 |           <p>© {new Date().getFullYear()} ROLLIN — Tous droits réservés. Site de démonstration.</p>
+      |                ^
+  126 |           <div className="flex gap-5">
+  127 |             <Link href="/privacy" className="transition-colors hover:text-cream">
+  128 |               Confidentialité
+[browser] ObjectMultiplex - orphaned data for stream "metamask-multichain-provider" (<anonymous code>:1:147461)
+[browser] ObjectMultiplex - orphaned data for stream "metamask-multichain-provider" (<anonymous code>:1:147461)
+[browser] ObjectMultiplex - orphaned data for stream "metamask-multichain-provider" (<anonymous code>:1:147461)
+[browser] ObjectMultiplex - orphaned data for stream "metamask-multichain-provider" (<anonymous code>:1:147461)
+✓ Compiled in 63ms
+ GET / 200 in 113ms (next.js: 5ms, application-code: 107ms)
+Error: Route "/": Next.js encountered the unstable value `new Date()` while prerendering.
+
+This value can change between renders, so it must be either prerendered or computed later.
+
+Ways to fix this:
+  - [dynamic] Render at request time by adding a dynamic data access (e.g. `await connection()`) before this call
+  - [cache] Prerender and cache the value with `"use cache"`
+  - [client] Render the value on the client with `"use client"`
+  - [measure] If the value is for telemetry, use a timing API such as `performance.now()`
+
+Learn more: https://nextjs.org/docs/messages/blocking-prerender-current-time
+    at Footer (src\components\layout\footer.tsx:128:17)
+    at RootLayout (src\app\layout.tsx:55:11)
+  126 |
+  127 |         <div className="mt-12 flex flex-col gap-3 border-t border-cream/15 pt-6 text-xs text-cream/55 sm:flex-row sm:items-center sm:justify-between">
+> 128 |           <p>© {new Date().getFullYear()} ROLLIN — Tous droits réservés. Site de démonstration.</p>
+      |                ^
+  129 |           <div className="flex gap-5">
+  130 |             <Link href="/privacy" className="transition-colors hover:text-cream">
+  131 |               Confidentialité
+✓ Compiled in 49ms
+ GET / 200 in 124ms (next.js: 3ms, application-code: 122ms)
+ GET / 200 in 177ms (next.js: 1.4ms, application-code: 176ms)
+ GET /shop 200 in 128ms (next.js: 15ms, application-code: 113ms)
+Error: Route "/shop": Next.js encountered runtime data during prerendering.
+
+`cookies()`, `headers()`, `params`, or `searchParams` accessed outside of `<Suspense>` prevents the route from being prerendered, blocking the page load and leading to a slower user experience.
+
+Ways to fix this:
+  - [stream] Provide a placeholder with `<Suspense fallback={...}>` around the data access
+  - [block] Set `export const instant = false` to allow a blocking route
+
+Learn more: https://nextjs.org/docs/messages/blocking-prerender-runtime
+    at ShopPage (src\app\shop\page.tsx:13:18)
+  11 |
+  12 | export default async function ShopPage({ searchParams }: { searchParams: SearchParams }) {
+> 13 |   const params = await searchParams;
+     |                  ^
+  14 |   const allowed = ["cakes", "bread", "cookies", "bagels", "pastries"] as const;
+  15 |   const initialCategory = allowed.includes(params.category as (typeof allowed)[number])
+  16 |     ? (params.category as (typeof allowed)[number])
+ GET /shop/croissant-au-beurre 200 in 879ms (next.js: 20ms, generate-params: 736ms, application-code: 123ms)
+ GET /category/cakes 200 in 993ms (next.js: 24ms, generate-params: 817ms, application-code: 152ms)
+Error: Route "/shop/[slug]": Next.js encountered URL data during prerendering or a navigation.
+
+`params` or `searchParams` accessed outside of `<Suspense>` may prevent the navigation from being instant, leading to a slower user experience.
+
+Ways to fix this:
+  - [stream] Provide a placeholder with `<Suspense fallback={...}>` around the data access
+  - [block] Set `export const instant = false` to allow a blocking route
+
+Learn more: https://nextjs.org/docs/messages/instant-shell-url-data
+    at ProductPage (src\app\shop\[slug]\page.tsx:29:20)
+  27 |
+  28 | export default async function ProductPage({ params }: { params: Params }) {
+> 29 |   const { slug } = await params;
+     |                    ^
+  30 |   const product = getProductBySlug(slug);
+  31 |   if (!product) notFound();
+  32 |
+ GET /cart 200 in 94ms (next.js: 13ms, application-code: 81ms)
+ GET /checkout 200 in 158ms (next.js: 15ms, application-code: 144ms)
+ GET /checkout/success 200 in 161ms (next.js: 21ms, application-code: 140ms)
+Error: Route "/category/[slug]": Next.js encountered URL data during prerendering or a navigation.
+
+`params` or `searchParams` accessed outside of `<Suspense>` may prevent the navigation from being instant, leading to a slower user experience.
+
+Ways to fix this:
+  - [stream] Provide a placeholder with `<Suspense fallback={...}>` around the data access
+  - [block] Set `export const instant = false` to allow a blocking route
+
+Learn more: https://nextjs.org/docs/messages/instant-shell-url-data
+    at CategoryPage (src\app\category\[slug]\page.tsx:26:20)
+  24 |
+  25 | export default async function CategoryPage({ params }: { params: Params }) {
+> 26 |   const { slug } = await params;
+     |                    ^
+  27 |   const category = getCategoryBySlug(slug);
+  28 |   if (!category) notFound();
+  29 |
+ GET /about 200 in 131ms (next.js: 17ms, application-code: 114ms)
+ GET /contact 200 in 132ms (next.js: 17ms, application-code: 115ms)
+ GET /faq 200 in 92ms (next.js: 13ms, application-code: 79ms)
+ GET /privacy 200 in 69ms (next.js: 12ms, application-code: 57ms)
+ GET /terms 200 in 72ms (next.js: 10ms, application-code: 62ms)
+ GET /nexistepas 404 in 172ms (next.js: 103ms, application-code: 70ms)

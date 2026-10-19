@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Bagel sésame">
+  <rect width="800" height="800" fill="#F0D9CE"/>
+  <circle cx="343" cy="419" r="2" fill="#351F1D" opacity="0.07"/><circle cx="516" cy="630" r="4" fill="#351F1D" opacity="0.07"/><circle cx="689" cy="81" r="6" fill="#351F1D" opacity="0.07"/><circle cx="102" cy="292" r="3" fill="#351F1D" opacity="0.07"/><circle cx="275" cy="503" r="5" fill="#351F1D" opacity="0.07"/><circle cx="448" cy="714" r="2" fill="#351F1D" opacity="0.07"/><circle cx="621" cy="165" r="4" fill="#351F1D" opacity="0.07"/><circle cx="34" cy="376" r="6" fill="#351F1D" opacity="0.07"/><circle cx="207" cy="587" r="3" fill="#351F1D" opacity="0.07"/><circle cx="380" cy="38" r="5" fill="#351F1D" opacity="0.07"/><circle cx="553" cy="249" r="2" fill="#351F1D" opacity="0.07"/><circle cx="726" cy="460" r="4" fill="#351F1D" opacity="0.07"/><circle cx="139" cy="671" r="6" fill="#351F1D" opacity="0.07"/><circle cx="312" cy="122" r="3" fill="#351F1D" opacity="0.07"/>
+  <g transform="translate(0 0)">
+    <path d="M400 220 a 210 210 0 1 0 0.1 0 Z M400 340 a 90 90 0 1 1 -0.1 0 Z" fill="#FFE52E" fill-rule="evenodd" stroke="#351F1D" stroke-width="14"/>
+    <ellipse cx="320" cy="300" rx="16" ry="9" fill="#351F1D" opacity="0.7" transform="rotate(-25 320 300)"/>
+    <ellipse cx="500" cy="330" rx="16" ry="9" fill="#351F1D" opacity="0.7" transform="rotate(20 500 330)"/>
+    <ellipse cx="420" cy="560" rx="16" ry="9" fill="#351F1D" opacity="0.7" transform="rotate(-10 420 560)"/>
+    <ellipse cx="280" cy="470" rx="16" ry="9" fill="#351F1D" opacity="0.7" transform="rotate(40 280 470)"/>
+    <ellipse cx="520" cy="470" rx="16" ry="9" fill="#351F1D" opacity="0.7" transform="rotate(-40 520 470)"/></g>
+  <g>
+    <rect x="280" y="704" width="240" height="56" rx="28" fill="#351F1D"/>
+    <text x="400" y="742" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="2" fill="#F8F0EB">BAGEL SÉSAME</text>
+  </g>
+</svg>

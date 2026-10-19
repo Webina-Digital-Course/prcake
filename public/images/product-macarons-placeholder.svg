@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Macarons">
+  <rect width="800" height="800" fill="#F0D9CE"/>
+  <circle cx="262" cy="86" r="2" fill="#351F1D" opacity="0.07"/><circle cx="435" cy="297" r="4" fill="#351F1D" opacity="0.07"/><circle cx="608" cy="508" r="6" fill="#351F1D" opacity="0.07"/><circle cx="21" cy="719" r="3" fill="#351F1D" opacity="0.07"/><circle cx="194" cy="170" r="5" fill="#351F1D" opacity="0.07"/><circle cx="367" cy="381" r="2" fill="#351F1D" opacity="0.07"/><circle cx="540" cy="592" r="4" fill="#351F1D" opacity="0.07"/><circle cx="713" cy="43" r="6" fill="#351F1D" opacity="0.07"/><circle cx="126" cy="254" r="3" fill="#351F1D" opacity="0.07"/><circle cx="299" cy="465" r="5" fill="#351F1D" opacity="0.07"/><circle cx="472" cy="676" r="2" fill="#351F1D" opacity="0.07"/><circle cx="645" cy="127" r="4" fill="#351F1D" opacity="0.07"/><circle cx="58" cy="338" r="6" fill="#351F1D" opacity="0.07"/><circle cx="231" cy="549" r="3" fill="#351F1D" opacity="0.07"/>
+  <g transform="translate(0 0)">
+    <path d="M200 380 a 200 110 0 0 1 400 0 Z" fill="#FFE52E" stroke="#351F1D" stroke-width="14"/>
+    <rect x="205" y="380" width="390" height="70" rx="28" fill="#FFFFFF" stroke="#351F1D" stroke-width="14"/>
+    <path d="M200 450 a 200 110 0 0 0 400 0 Z" fill="#FFE52E" stroke="#351F1D" stroke-width="14"/></g>
+  <g>
+    <rect x="305" y="704" width="190" height="56" rx="28" fill="#351F1D"/>
+    <text x="400" y="742" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="2" fill="#F8F0EB">MACARONS</text>
+  </g>
+</svg>

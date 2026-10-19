@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Pain levain">
+  <rect width="800" height="800" fill="#E7D8F2"/>
+  <circle cx="634" cy="602" r="2" fill="#351F1D" opacity="0.07"/><circle cx="47" cy="53" r="4" fill="#351F1D" opacity="0.07"/><circle cx="220" cy="264" r="6" fill="#351F1D" opacity="0.07"/><circle cx="393" cy="475" r="3" fill="#351F1D" opacity="0.07"/><circle cx="566" cy="686" r="5" fill="#351F1D" opacity="0.07"/><circle cx="739" cy="137" r="2" fill="#351F1D" opacity="0.07"/><circle cx="152" cy="348" r="4" fill="#351F1D" opacity="0.07"/><circle cx="325" cy="559" r="6" fill="#351F1D" opacity="0.07"/><circle cx="498" cy="770" r="3" fill="#351F1D" opacity="0.07"/><circle cx="671" cy="221" r="5" fill="#351F1D" opacity="0.07"/><circle cx="84" cy="432" r="2" fill="#351F1D" opacity="0.07"/><circle cx="257" cy="643" r="4" fill="#351F1D" opacity="0.07"/><circle cx="430" cy="94" r="6" fill="#351F1D" opacity="0.07"/><circle cx="603" cy="305" r="3" fill="#351F1D" opacity="0.07"/>
+  <g transform="translate(0 0)">
+    <path d="M170 580 q 0 -260 230 -260 q 230 0 230 260 Z" fill="#9EDDE4" stroke="#351F1D" stroke-width="14"/>
+    <path d="M290 380 l 60 -60 M400 350 l 0 -70 M510 380 l -60 -60" stroke="#351F1D" stroke-width="16" stroke-linecap="round" opacity="0.45"/>
+    <rect x="170" y="560" width="460" height="56" rx="24" fill="#FF8048" stroke="#351F1D" stroke-width="14"/></g>
+  <g>
+    <rect x="287.5" y="704" width="225" height="56" rx="28" fill="#351F1D"/>
+    <text x="400" y="742" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="2" fill="#F8F0EB">PAIN LEVAIN</text>
+  </g>
+</svg>
