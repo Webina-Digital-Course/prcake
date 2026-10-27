@@ -2,7 +2,7 @@
 
 import { zodResolver } from "@hookform/resolvers/zod";
 import { CheckCircle2, Loader2 } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 
@@ -33,6 +33,9 @@ function FieldError({ message }: { message?: string }) {
 
 export function ContactForm() {
   const [sent, setSent] = useState(false);
+
+
+
   const {
     register,
     handleSubmit,
@@ -71,6 +74,9 @@ export function ContactForm() {
           <label htmlFor="contact-email" className="mb-1.5 block text-sm font-semibold">
             E-mail <span aria-hidden="true">*</span>
           </label>
+
+
+      
           <input
             id="contact-email"
             type="email"
